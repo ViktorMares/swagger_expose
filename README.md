@@ -21,3 +21,6 @@ chmod +x swagger.py
 
 # Sample Output:
 ![image](https://user-images.githubusercontent.com/80492489/234610327-957a9e4c-fb1c-4126-837b-71b61f07edc3.png)
+
+# NB:
+This tool is not 100% accurate, it only probes different directories that are usually known to contain a local Swagger UI installation. Beware that sometimes these are located on a subdomain or on an endpoint that isn't easily discoverable.
