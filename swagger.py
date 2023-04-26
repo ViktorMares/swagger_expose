@@ -35,7 +35,7 @@ for url in urls:
 	response = requests.get(url)
 	try:
 		response = requests.get(url=url, timeout=2)
-		if response.status_code == 200:
+		if response.status_code == 200 and 'openapi' in response.text:
 			print(f'{Fore.GREEN}{url} [{response.status_code} {response.reason}]')
 			print(f'{Fore.GREEN}You can identify the swagger-ui version via https://swagger.io/docs/open-source-tools/swagger-ui/usage/version-detection/')
 		elif response.status_code == 401 or response.status_code == 403:
