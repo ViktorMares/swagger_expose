@@ -1,8 +1,9 @@
 # Description
 Swagger Expose - Expose Swagger UI endpoints
 
-The idea is very simple, use subdomain enumeration tools & add a little bit of functionality on top. The tool basically takes the output of a normal subdomain enumeration tool, it then removes all unnecessary subdomains (that do not belong to the requested domain) and sends a request to each one of them, to show you in a nice colored output, the status code for each one of them.
+The original idea is from this writeup on Medium - https://medium.com/@adhaamsayed3/found-6-domxss-at-different-programs-hacking-swagger-ui-5767c9d6d024
 
+If you are trying to find the version of the Swagger UI - https://swagger.io/docs/open-source-tools/swagger-ui/usage/version-detection/
 
 # Installation & Usage
 ```
